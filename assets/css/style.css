@@ -392,7 +392,7 @@ textarea.form-control {
 
 /* /card */
 .navigation {
-  padding: 40px 130px;
+  padding: 10px 100px;
   transition: 0.3s ease;
 }
 .navigation.nav-bg {
@@ -406,7 +406,7 @@ textarea.form-control {
 }
 @media (max-width: 991px) {
   .navigation {
-    padding: 20px;
+    padding: 10px;
     background: #41228e;
   }
 }
@@ -425,7 +425,7 @@ textarea.form-control {
 }
 
 .hero-area {
-  padding: 300px 0 200px;
+  padding: 200px 0 80px;
   position: relative;
 }
 @media (max-width: 767px) {

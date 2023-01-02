@@ -197,6 +197,15 @@ a:hover {
   margin-bottom: 15px;
   font-family: "Playfair Display", serif;
 }
+.vertical {
+  border-left: 2px solid black;
+  height: 100%;
+  position:absolute;
+  right: 0%;
+}
+.experience-block{
+  padding-left:50px;
+}
 
 .bg-cover {
   background-size: cover;

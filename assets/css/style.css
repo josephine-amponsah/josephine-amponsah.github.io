@@ -190,11 +190,11 @@ a:hover {
 }
 
 .section {
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 .section-title {
-  margin-bottom: 80px;
+  margin-bottom: 15px;
   font-family: "Playfair Display", serif;
 }
 
@@ -410,6 +410,12 @@ textarea.form-control {
     background: #41228e;
   }
 }
+/* .portfolio-cards{
+  height: 400px;
+}
+.portfolio-content{
+  height: 100%;
+} */
 
 .navbar .nav-item .nav-link {
   font-family: "Playfair Display", serif;

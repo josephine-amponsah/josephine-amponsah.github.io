@@ -203,6 +203,12 @@ a:hover {
   position:absolute;
   right: 0%;
 }
+.resume-content{
+  padding-left: 70px;
+}
+.blog-card{
+  height: 100%;
+}
 .experience-block{
   padding-left:50px;
 }

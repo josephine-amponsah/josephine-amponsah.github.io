@@ -203,9 +203,9 @@ a:hover {
   position:absolute;
   right: 0%;
 }
-.resume-content{
+/* .resume-content{
   padding-left: 70px;
-}
+} */
 .blog-card{
   height: 100%;
 }
@@ -853,3 +853,69 @@ blockquote {
   font-weight: bold;
 }
 /*# sourceMappingURL=style.css.map */
+
+
+.tab-container {
+  /* display: flex; */
+  /* flex-direction: row; */
+  /* Adjust as needed */
+}
+
+.tab {
+  display: none;
+  background-color: #007BFF;
+}
+
+.tab-labels {
+  display: flex;
+  /* justify-content: space-between; */
+}
+
+.tab-label {
+  cursor: pointer;
+  padding: 10px 20px;
+  position: relative;
+}
+
+.tab-label::after {
+  content: '';
+  display: block;
+  height: 2px; /* Adjust the thickness of the line */
+  width: 0;
+  background-color: #007BFF; /* Change to your desired color */
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: width 0.3s;
+}
+
+.tab:checked + .tab-label::after {
+  width: 100%;
+  background-color: #007BFF; 
+  color: #41228e;
+}
+
+.tab-content {
+  display: none;
+}
+
+#primary:checked ~ #content-primary,
+#promotions:checked ~ #content-promotions,
+#social:checked ~ #content-social {
+  display: block;
+}
+
+.tab:checked + .tab-label{
+  background-color: #007BFF;
+  color: white;
+  text-decoration: underline;
+}
+
+.max-width-img {
+  max-width: 100%; /* This ensures the image fits within its container */
+  max-height: 100%; /* Maintains the image's aspect ratio */
+}
+
+.project-card{
+  height: 100%;
+}
